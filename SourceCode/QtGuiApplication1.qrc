@@ -1,0 +1,4 @@
+<RCC>
+    <qresource prefix="/QtGuiApplication1"/>
+    <qresource prefix="/GuiPage2"/>
+</RCC>

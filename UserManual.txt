@@ -1,0 +1,16 @@
+User manual(GUI version):
+1. Open the “QtGuiApplication1_boxed.exe” program.
+2. Click “click” button to choose a “.txt” file, and the program will automatically generate a “.csv” file corresponding to the chosen file. (Hint: If you have no file to transform, skip this step.)
+3. Click “next” button to the next page
+4. Click two “File Choose” button to choose two dictionary files(“.csv” format) and click “merge” button to merge them. (Hint: If you do not want to merge files, skip this step.)
+4. Click “next” button to the next page.
+5. Click “Dictionary Choose” button to choose the final dictionary.
+6. Input the words you want to search. For the unknown letter, use * to represent. For example, **a*, pre**, etc.
+7. Click ‘Submit’ button or press enter to search.
+!Important: 
+(1) Please make sure that the path of files has no non-ASCII characters.
+(2) the “.exe” file may be treated as a computer virus by defenders. Please trust this program first.
+
+If there is anything wrong with this program, please contact me.
+RUI, CHEN 
+Email: chen107101@163.com

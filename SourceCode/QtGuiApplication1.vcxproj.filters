@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files\page1">
+      <UniqueIdentifier>{16c205a7-1108-45eb-988c-ddfc1d228e7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\page2">
+      <UniqueIdentifier>{f39e57ab-d58e-40a9-9fa2-11d915dc8308}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\page3">
+      <UniqueIdentifier>{232c732c-86cb-444c-bae8-3ad4fcf73d8b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="completioner.cpp">
+      <Filter>Source Files\page1</Filter>
+    </ClCompile>
+    <ClCompile Include="preprocessor.cpp">
+      <Filter>Source Files\page1</Filter>
+    </ClCompile>
+    <ClCompile Include="textDealer.cpp">
+      <Filter>Source Files\page1</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiPage1.cpp">
+      <Filter>Source Files\page1</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiPage2.cpp">
+      <Filter>Source Files\page2</Filter>
+    </ClCompile>
+    <ClCompile Include="RBTree.cpp">
+      <Filter>Source Files\page2</Filter>
+    </ClCompile>
+    <ClCompile Include="Reader.cpp">
+      <Filter>Source Files\page3</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiPage3.cpp">
+      <Filter>Source Files\page3</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="QtGuiApplication1.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="GuiPage2.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="GuiPage3.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="QtGuiApplication1.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="proj2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RBTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PartB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="GuiPage1.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="GuiPage2.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="GuiPage3.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+</Project>
